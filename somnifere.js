@@ -4,6 +4,8 @@ function prendreSomnifere() {
 }
 
 function verifierSomnifere() {
+    alert(localStorage.getItem("somnifere"));
+
     if (localStorage.getItem("somnifere") === "oui") {
         document.getElementById("somnifere").style.display = "block";
     }
