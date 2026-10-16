@@ -4,7 +4,7 @@ function prendreSomnifere() {
 }
 
 function verifierSomnifere() {
-    alert(localStorage.getItem("somnifere"));
+    alert(localStorage.getItem("il te faut un somnifère "));
 
     if (localStorage.getItem("somnifere") === "oui") {
         document.getElementById("somnifere").style.display = "block";
