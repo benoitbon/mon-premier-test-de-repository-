@@ -1,6 +1,6 @@
 function prendreSomnifere() {
     localStorage.setItem("somnifere", "oui");
-    alert(localStorage.getItem("somnifere"));
+    alert("Tu as obtenu un somnifère !");
 }
 function verifierSomnifere() {
     alert(localStorage.getItem("il te faut un somnifère "));
